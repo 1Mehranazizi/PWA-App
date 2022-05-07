@@ -1,0 +1,77 @@
+.searchBox {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 50px 99px rgba(175, 109, 204, 0.288);
+    position: relative;
+}
+
+.searchBox input {
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 5px 10px;
+}
+
+.searchBox button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    right: 1rem;
+}
+
+.banear {
+    position: relative;
+    background: linear-gradient(120deg,#B06DCC 50% ,#0101EE 110%);
+    border-radius: 20px;
+    margin-top: 4rem;
+    box-shadow: 0 50px 99px rgba(175, 109, 204, 0.288);
+}
+
+.image {
+    position: relative;
+    height: 150px;
+}
+
+.image img {
+    position: absolute;
+    top: -10rem;
+    width: 400px;
+}
+
+.info {
+    padding:0 1rem 1rem;
+    text-align: center; 
+}
+
+.info h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+.info p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1.7rem;
+}
+
+.product {
+    box-shadow: 0 50px 99px rgba(175, 109, 204, 0.288);
+    border-radius: 25px;
+}
+
+.product img {
+    width: 150px;
+    filter: drop-shadow(0 5px 10px rgba(104, 104, 104, 0.7));
+}

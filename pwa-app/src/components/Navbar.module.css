@@ -24,6 +24,7 @@
     padding: 2rem 0;
     width: 200px;
     background:linear-gradient(120deg,#B06DCC,#0101EE);
+    z-index: 200;
 }
 
 .nav {
