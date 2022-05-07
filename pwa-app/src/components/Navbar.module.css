@@ -1,0 +1,43 @@
+.header {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburgerMenu , .logo , .cart {
+    cursor: pointer;
+}
+
+.hamburgerMenu img {
+    width: 25px;
+}
+
+.nav , .navOpen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: right .3s ease;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding: 2rem 0;
+    width: 200px;
+    background:linear-gradient(120deg,#B06DCC,#0101EE);
+}
+
+.nav {
+    right: -100%;
+}
+
+.navOpen {
+    right: 0;
+}
+
+.navOpen li , .nav li {
+    padding: 1rem 0;
+}
+
+.navOpen li a , .nav li a {
+    color: #fff;
+}
