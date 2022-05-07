@@ -63,7 +63,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    margin-top: 1.7rem;
+    margin-top: 2.4rem;
 }
 
 .product {

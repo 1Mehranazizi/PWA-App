@@ -5,7 +5,6 @@ import styles from "./Main.module.css";
 
 //Icons
 import SearchIcon from "../assets/img/search.png";
-import Like from "../assets/img/like.png";
 
 //Images
 import Product from "../assets/img/product1.png";
